@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "avengersasemble:item/raw_vibranium"
+  }
+}
