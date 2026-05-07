@@ -1,4 +1,6 @@
 {
   "item.avengersasemble.vibranium_shard": "Vibranium Shard",
-  "item.avengersasemble.raw_vibranium": "Raw Vibranium"
+  "item.avengersasemble.raw_vibranium": "Raw Vibranium",
+  "creativetab.avengersasemble.ores": "AvengersAsemble Ores",
+  "creativetab.avengersasemble.placeholder": "AvengersAsemble Placeholder tab"
 }

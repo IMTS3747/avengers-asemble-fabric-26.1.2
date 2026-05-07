@@ -1,5 +1,6 @@
 package com.avengersasemble;
 
+import com.avengersasemble.creativemodetab.ModCreativeModeTabs;
 import com.avengersasemble.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,6 +14,8 @@ public class AvengersAsemble implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+
+		ModCreativeModeTabs.registerModCreativeModeTabs();
 		ModItems.registerModItems();
 	}
 }
