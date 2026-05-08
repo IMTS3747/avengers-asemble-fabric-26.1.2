@@ -1,6 +1,11 @@
 {
-  "item.avengersasemble.vibranium_shard": "Vibranium Shard",
   "item.avengersasemble.raw_vibranium": "Raw Vibranium",
+  "item.avengersasemble.time_stone": "Time Stone",
+  "item.avengersasemble.reality_stone": "Reality Stone",
+  "item.avengersasemble.power_stone": "Power Stone",
+  "item.avengersasemble.space_stone": "Space Stone",
+  "item.avengersasemble.mind_stone": "Mind Stone",
+  "item.avengersasemble.soul_stone": "Soul Stone",
   "creativetab.avengersasemble.ores": "AvengersAsemble Ores",
-  "creativetab.avengersasemble.placeholder": "AvengersAsemble Placeholder tab"
+  "Infinity Items": "Infinity Items"
 }

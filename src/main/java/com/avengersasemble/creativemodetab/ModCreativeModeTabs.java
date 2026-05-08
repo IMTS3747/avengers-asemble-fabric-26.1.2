@@ -20,12 +20,17 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.RAW_VIBRANIUM);
                     }).build());
 
-    public static final CreativeModeTab MARVEL_ORES_BLOCK_TAB = Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB,
-            Identifier.fromNamespaceAndPath(AvengersAsemble.MOD_ID, "marvel_ores_blocks"),
-            FabricCreativeModeTab.builder().icon(() -> new ItemStack(ModItems.RAW_VIBRANIUM))
-                    .title(Component.translatable("creativetab.avengersasemble.placeholder"))
+    public static final CreativeModeTab INFINITY_ITEMS_TAB = Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB,
+            Identifier.fromNamespaceAndPath(AvengersAsemble.MOD_ID, "infinity_items_tab"),
+            FabricCreativeModeTab.builder().icon(() -> new ItemStack(ModItems.TIME_STONE))
+                    .title(Component.translatable("Infinity Items"))
                     .displayItems((parameters, output) -> {
-                        output.accept(ModItems.RAW_VIBRANIUM);
+                        output.accept(ModItems.TIME_STONE);
+                        output.accept(ModItems.SPACE_STONE);
+                        output.accept(ModItems.REALITY_STONE);
+                        output.accept(ModItems.SOUL_STONE);
+                        output.accept(ModItems.POWER_STONE);
+                        output.accept(ModItems.MIND_STONE);
                     }).build());
 
     public static void registerModCreativeModeTabs(){

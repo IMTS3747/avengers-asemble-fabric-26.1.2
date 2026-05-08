@@ -16,6 +16,12 @@ public class ModItems {
 
     public static final Item VIBRANIUM_SHARD = registerItem("vibranium_shard", Item::new);
     public static final Item RAW_VIBRANIUM = registerItem("raw_vibranium", Item::new);
+    public static final Item TIME_STONE = registerItem("time_stone", Item::new);
+    public static final Item SPACE_STONE = registerItem("space_stone", Item::new);
+    public static final Item REALITY_STONE = registerItem("reality_stone", Item::new);
+    public static final Item MIND_STONE = registerItem("mind_stone", Item::new);
+    public static final Item POWER_STONE = registerItem("power_stone", Item::new);
+    public static final Item SOUL_STONE = registerItem("soul_stone", Item::new);
 
     private static Item registerItem(String name, Function<Item.Properties, Item> function) {
         Identifier id = Identifier.fromNamespaceAndPath(AvengersAsemble.MOD_ID, name);
@@ -27,9 +33,6 @@ public class ModItems {
     public static void registerModItems() {
         AvengersAsemble.LOGGER.info("Registering mod items for " + AvengersAsemble.MOD_ID);
 
-        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.INGREDIENTS).register(output -> {
-            output.accept(VIBRANIUM_SHARD);
-            output.accept(RAW_VIBRANIUM);
-        } );
+        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.INGREDIENTS).register(output -> {} );
     }
 }

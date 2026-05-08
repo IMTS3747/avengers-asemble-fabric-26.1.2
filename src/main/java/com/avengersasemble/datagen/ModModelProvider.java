@@ -22,5 +22,11 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerators itemModelGenerators) {
         itemModelGenerators.generateFlatItem(ModItems.VIBRANIUM_SHARD, ModelTemplates. FLAT_ITEM);
         itemModelGenerators.generateFlatItem(ModItems.RAW_VIBRANIUM, ModelTemplates. FLAT_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.TIME_STONE, ModelTemplates. FLAT_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.SPACE_STONE, ModelTemplates. FLAT_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.REALITY_STONE, ModelTemplates. FLAT_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.MIND_STONE, ModelTemplates. FLAT_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.POWER_STONE, ModelTemplates. FLAT_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.SOUL_STONE, ModelTemplates. FLAT_ITEM);
     }
 }
