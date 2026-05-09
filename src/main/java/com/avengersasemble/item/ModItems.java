@@ -33,6 +33,7 @@ public class ModItems {
     public static void registerModItems() {
         AvengersAsemble.LOGGER.info("Registering mod items for " + AvengersAsemble.MOD_ID);
 
-        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.INGREDIENTS).register(output -> {} );
+        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.INGREDIENTS).register(output -> {
+        });
     }
 }
