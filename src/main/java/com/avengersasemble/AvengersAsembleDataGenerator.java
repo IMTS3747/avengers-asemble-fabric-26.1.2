@@ -1,5 +1,7 @@
 package com.avengersasemble;
 
+import com.avengersasemble.datagen.ModBlockLootTableProvider;
+import com.avengersasemble.datagen.ModBlockTagsProvider;
 import com.avengersasemble.datagen.ModModelProvider;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
@@ -10,5 +12,7 @@ public class AvengersAsembleDataGenerator implements DataGeneratorEntrypoint {
 		var pack = fabricDataGenerator.createPack();
 
 		pack.addProvider(ModModelProvider::new);
+		pack.addProvider(ModBlockTagsProvider::new);
+		pack.addProvider(ModBlockLootTableProvider::new);
 	}
 }

@@ -25,6 +25,15 @@ public class ModBlocks {
     public static final Block VIBRANIUM_ORE = registerBlock("vibranium_ore",
             properties -> new Block(properties.strength(1f, 6f)
                     .mapColor(MapColor.COLOR_PURPLE).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final Block ENDER_URU_ORE = registerBlock("ender_uru_ore",
+            properties -> new Block(properties.strength(1.5f, 6f)
+                    .mapColor(MapColor.COLOR_BLACK).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final Block TESSERACT = registerBlock("tesseract",
+            properties -> new Block(properties.strength(3f, 600f)
+                    .mapColor(MapColor.COLOR_BLUE).sound(SoundType.GLASS)));
+    public static final Block URU_BLOCK = registerBlock("uru_block",
+            properties -> new Block(properties.strength(3f, 600f)
+                    .mapColor(MapColor.COLOR_GRAY).requiresCorrectToolForDrops().sound(SoundType.IRON)));
 
 
 

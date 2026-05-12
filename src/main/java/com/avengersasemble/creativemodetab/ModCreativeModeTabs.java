@@ -19,8 +19,11 @@ public class ModCreativeModeTabs {
                     .displayItems((parameters, output) -> {
                         output.accept(ModItems.VIBRANIUM_SHARD);
                         output.accept(ModItems.RAW_VIBRANIUM);
+                        output.accept(ModItems.REFINED_URU_INGOT);
+                        output.accept(ModItems.RAW_URU);
                         output.accept(ModBlocks.VIBRANIUM_ORE);
                         output.accept(ModBlocks.DEEPSLATE_VIBRANIUM_ORE);
+                        output.accept(ModBlocks.ENDER_URU_ORE);
                     }).build());
 
     public static final CreativeModeTab INFINITY_ITEMS_TAB = Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB,
@@ -34,6 +37,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.SOUL_STONE);
                         output.accept(ModItems.POWER_STONE);
                         output.accept(ModItems.MIND_STONE);
+                        output.accept(ModBlocks.TESSERACT);
                     }).build());
 
     public static final CreativeModeTab AVENGERS_ASEMBLE_BUILDING_BLOCKS = Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB,
@@ -42,6 +46,7 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.avengersasemble.BuildingBlocks"))
                     .displayItems((parameters, output) -> {
                         output.accept(ModBlocks.VIBRANIUM_BAR);
+                        output.accept(ModBlocks. URU_BLOCK);
                     }).build());
 
     public static void registerModCreativeModeTabs(){

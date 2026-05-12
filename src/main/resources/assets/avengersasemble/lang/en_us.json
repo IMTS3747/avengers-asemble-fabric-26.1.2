@@ -1,6 +1,8 @@
 {
   "item.avengersasemble.raw_vibranium": "Raw Vibranium",
   "item.avengersasemble.vibranium_shard": "Vibranium Shard",
+  "item.avengersasemble.raw_uru": "Raw Uru",
+  "item.avengersasemble.refined_uru_ingot": "Refined Uru Ingot",
   "item.avengersasemble.time_stone": "Time Stone",
   "item.avengersasemble.reality_stone": "Reality Stone",
   "item.avengersasemble.power_stone": "Power Stone",
@@ -9,8 +11,11 @@
   "item.avengersasemble.soul_stone": "Soul Stone",
 
   "block.avengersasemble.vibranium_bar": "Bar of Vibranium",
+  "block.avengersasemble.uru_block": "Block of Uru",
+  "block.avengersasemble.tesseract": "Tesseract",
   "block.avengersasemble.vibranium_ore": "Vibranium ore",
   "block.avengersasemble.deepslate_vibranium_ore": "Deepslate Vibranium ore",
+  "block.avengersasemble.ender_uru_ore": "Ender Uru ore",
 
   "creativetab.avengersasemble.ores": "AvengersAsemble Ores",
   "creativetab.avengersasemble.InfinityItems": "Infinity Items",
